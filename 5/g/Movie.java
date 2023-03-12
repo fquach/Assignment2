@@ -1,13 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person {
+public class Movie {
     private String name;
+    private String genre;
     private List<Watch> listWatch;
-    
-    // Constructor for Person with name
-    public Person(String name){
+
+    // Constructor for Movie with name and genre
+    public Movie(String name, String genre){
         this.name = name;
+        this.genre = genre;
     }
 
     public void addWatch(Watch w){
